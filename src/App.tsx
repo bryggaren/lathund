@@ -18,17 +18,17 @@ class App extends React.Component {
                 <Navbar>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href='#home'>Bryggarens Lathund</a>
+                            <a href="#home">Bryggarens Lathund</a>
                         </Navbar.Brand>
                     </Navbar.Header>
                     <Nav>
-                        <NavItem eventKey={1} href='#'>
+                        <NavItem eventKey={1} href="#">
                             Link
                         </NavItem>
-                        <NavItem eventKey={2} href='#'>
+                        <NavItem eventKey={2} href="#">
                             Link
                         </NavItem>
-                        <NavDropdown eventKey={3} title='Dropdown' id='basic-nav-dropdown'>
+                        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
                             <MenuItem eventKey={3.1}>Action</MenuItem>
                             <MenuItem eventKey={3.2}>Another action</MenuItem>
                             <MenuItem eventKey={3.3}>Something else here</MenuItem>
@@ -55,10 +55,10 @@ class App extends React.Component {
                                             <Col md={12}>
                                                 <div>
                                                     <b>Öchsle</b>: Hydrometerskala för mätning av
-                                                    densiteten på vätska (temperaturberoende). 1 grad öchlse (<b>
-                                                        °Ö
-                                                    </b>) motsvarar t.ex 1 grams skillnad mellan 1
-                                                    liter vört och 1 liter vatten vid <b>20 °C</b>.
+                                                    densiteten på vätska (temperaturberoende). 1
+                                                    grad öchlse (<b>°Ö</b>) motsvarar t.ex 1 grams
+                                                    skillnad mellan 1 liter vört och 1 liter vatten
+                                                    vid <b>20 °C</b>.
                                                 </div>
                                                 <div>
                                                     <b>Öchsleliter (°Öl)</b>:{' '}
@@ -128,7 +128,7 @@ class App extends React.Component {
                                     </Panel.Body>
                                 </Panel.Collapse>
                             </Panel>
-                            <Panel bsStyle='success' marginWidth={24}>
+                            <Panel bsStyle="success" marginWidth={24}>
                                 <Panel.Heading>
                                     <Panel.Title>Panel heading</Panel.Title>
                                 </Panel.Heading>
@@ -143,4 +143,4 @@ class App extends React.Component {
     }
 }
 
-export default App
+export default App;
