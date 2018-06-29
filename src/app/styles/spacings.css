@@ -1,0 +1,90 @@
+@value panel-padding: 25px;
+@value cell-padding: 12px;
+@value spacing-base: 16px;
+@value spacing-half: 8px;
+@value spacing-quart: 4px;
+@value spacing-half-quart: 2px;
+
+.PaddingBase {
+    padding: spacing-base;
+}
+
+.PaddingCell {
+    padding: cell-padding;
+}
+
+.PaddingHalf {
+    padding: spacing-half;
+}
+
+.PaddingPanel {
+    padding: panel-padding;
+}
+
+.PaddingQuart {
+    padding: spacing-quart;
+}
+
+.PaddingHalfQuart {
+    padding: spacing-half-quart;
+}
+
+.PaddingXBase {
+    padding-right: spacing-base;
+    padding-left: spacing-base;
+}
+
+.PaddingXCell {
+    padding-right: cell-padding;
+    padding-left: cell-padding;
+}
+
+.PaddingXHalf {
+    padding-right: spacing-half;
+    padding-left: spacing-half;
+}
+
+.PaddingXPanel {
+    padding-right: panel-padding;
+    padding-left: panel-padding;
+}
+
+.PaddingXQuart {
+    padding-right: spacing-quart;
+    padding-left: spacing-quart;
+}
+
+.PaddingXHalfQuart {
+    padding-right: spacing-half-quart;
+    padding-left: spacing-half-quart;
+}
+
+.PaddingYBase {
+    padding-top: spacing-base;
+    padding-bottom: spacing-base;
+}
+
+.PaddingYCell {
+    padding-top: cell-padding;
+    padding-bottom: cell-padding;
+}
+
+.PaddingYHalf {
+    padding-top: spacing-half;
+    padding-bottom: spacing-half;
+}
+
+.PaddingYPanel {
+    padding-top: panel-padding;
+    padding-bottom: panel-padding;
+}
+
+.PaddingYQuart {
+    padding-top: spacing-quart;
+    padding-bottom: spacing-quart;
+}
+
+.PaddingYHalfQuart {
+    padding-top: spacing-half-quart;
+    padding-bottom: spacing-half-quart;
+}
