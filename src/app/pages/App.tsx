@@ -10,7 +10,6 @@ import {
     Grid,
     Col,
 } from 'react-bootstrap';
-import * as ReactDOM from 'react-dom';
 
 class App extends React.Component {
     public render() {
